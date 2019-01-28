@@ -6,7 +6,7 @@
 /*   By: andrmart <andrmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/11 17:41:05 by andrmart          #+#    #+#             */
-/*   Updated: 2019/01/11 17:41:46 by andrmart         ###   ########.fr       */
+/*   Updated: 2019/01/28 04:34:47 by andrmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_putnbr(int n)
 {
-		ft_putnbr_fd(n, 1);
+	ft_putnbr_fd(n, 1);
 }

@@ -6,7 +6,7 @@
 /*   By: andrmart <andrmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/27 21:29:30 by andrmart          #+#    #+#             */
-/*   Updated: 2019/01/28 03:34:29 by andrmart         ###   ########.fr       */
+/*   Updated: 2019/01/28 04:34:35 by andrmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	**ft_strsplit(char const *s, char c)
 {
-	char **ret;
-	int i;
-	int size;
+	char	**ret;
+	int		i;
+	int		size;
 
 	i = -1;
 	if (!s || !c)
@@ -34,4 +34,3 @@ char	**ft_strsplit(char const *s, char c)
 	ret[i] = NULL;
 	return (ret);
 }
-

@@ -6,7 +6,7 @@
 /*   By: andrmart <andrmart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/27 16:51:35 by andrmart          #+#    #+#             */
-/*   Updated: 2019/01/13 19:29:37 by andrmart         ###   ########.fr       */
+/*   Updated: 2019/01/28 04:37:36 by andrmart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 int		ft_isalpha(int c)
 {
-		return (ft_ir('a', c, 'z') || ft_ir('A', c, 'Z'));
+	return (ft_ir('a', c, 'z') || ft_ir('A', c, 'Z'));
 }
