@@ -96,5 +96,6 @@ t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int				ft_lstcnt(t_list *lst);
 int				ft_wc_c(const char *s, int c);
 int				ft_wlen_c(const char *s, int c);
+char			*ft_nthchr(char *str, int c, int n);
 
 #endif

@@ -68,7 +68,8 @@ FILES = ft_memset.c \
 	ft_strsplit.c \
 	ft_wc_c.c \
 	ft_wlen_c.c \
-	
+	ft_nthchr.c
+
 OBJ = $(FILES:%.c=%.o)
 
 $(NAME): $(FILES)
